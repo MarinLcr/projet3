@@ -1,0 +1,242 @@
+.row { 
+	width: 100%; 
+}
+
+.form-control.w-100.mr-auto.rounded-0, .btn.btn-theme.w-100.rounded-0 {
+	height: 50px;
+}
+
+.btn.btn-theme.w-100.rounded-0 {
+	border: 2px;
+}
+
+#demo {
+	margin-top: 50px;
+}
+
+.footer.py-3 {
+	position: inherit !important;
+}
+
+body {
+	margin-bottom: 0 !important;
+}
+
+body.content_int {
+	background-color: #F5F5F5;
+}
+
+.container_acc {
+	max-width: 1100px;
+    width: 85%;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.container_cont {
+	max-width: 1000px;
+	width: 85%;
+	background-color: #F5F5F5;
+	margin-top: 135px;
+}
+
+.container_cont .row {
+	background-color: white;
+	margin: 0;
+	padding: 65px 0;
+}
+
+.content_txt_acc {
+	background-color: #F0F0F0;
+}
+
+.partner {
+	height: 80px;
+}
+
+a.navbar-brand img {
+	height: 23px;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("http://projet2.leclercmarin.fr/img/hamb.png")
+}
+
+.navbar.fixed-top.navbar-light.navbar-expand-sm.navbar-template {
+	background-color: black;
+}
+
+h2 { 
+font-family: 'Molengo', Georgia, Times, serif;
+	font-size: 42px;
+	line-height: 52px;
+}
+
+h3 {
+font-family: 'Molengo', Georgia, Times, serif;
+	font-size: 28px;
+	line-height: 50px;	
+}
+
+h4 {
+font-family: 'Molengo', Georgia, Times, serif;
+	font-size: 21px;
+	line-height: 50px;	
+}
+
+p { 
+font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.actu {
+	border-bottom: 1px solid black;
+}
+
+.actu a {
+	color: black;
+}
+
+.linkprog:before {
+	content:"\2192\0020"
+}
+
+.linkprog {
+	font-size: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .content_txt_acc p {
+    display: none;
+  }
+  .content_txt_acc h3 {
+    line-height: 30px;
+  }
+}
+
+.carousel-item{
+  height: 43vw;
+  background-size:cover !important;
+  background-position:center !important;
+}
+
+.admin { 
+	width: 18px;
+}
+
+/* Mobile version */
+
+@media screen and (max-width: 540px) {
+  footer .row div.col-12 { padding: 0;}
+  footer .row div.col-12:first-child { margin-bottom: 20px;}
+  footer .row div.col-12:first-child input {text-align: center;}
+  footer h4.text-white.text-uppercase.mb-0 { text-align: center;}
+  footer .offset-md-6.col-md-2.pr-0 {padding: 0;}
+  footer .offset-md-6.col-md-2.pr-0 ul {justify-content: space-around;}
+  footer .offset-md-6.col-md-2.pr-0 ul li {width: 18%;}
+  footer .offset-md-6.col-md-2.pr-0 ul li a svg {width: 100%; height: 100%;} 
+  footer .mentions ul li a {font-size: 12px;}
+  .container_acc, .container_cont {width: 100%; padding: 0rem !important; margin: 0;}
+  .container_acc .row, .container_cont .row {margin: 0;}
+  .container_acc h2, .container_cont h2 {padding: 0 1rem !important; line-height: 1;}
+  .container_acc .row:first-child, .container_cont .row {padding: 2rem 1rem !important;}
+  .container_cont .container_row_int h3 {line-height: 1.2;}
+  .container_cont {margin-top: 56px; margin-bottom: 0 !important;}
+  h2 {font-size: 35px;}
+  .container_prog .row.py-2.mb-3 a {padding: 0 !important; margin-bottom: 2rem;}
+  iframe.bande_annonce {height: 176px !important;}
+}
+
+/* Page back-end */
+
+.backend-top {
+	background-color: #E2E2E2;
+	width: 100%;
+}
+
+.back_modif {
+	width: 100%;
+	margin-bottom: 2rem !important;
+}
+
+.back_modif div {
+	background-color: white;
+	border: 1px solid #707070;
+}
+
+/* hover sociaux */
+.sociaux a {
+	transition-duration: 0.1s;
+}
+
+.sociaux:hover {
+	opacity: 0.9;
+}
+
+.sociaux:hover a {
+	padding-top: 6px !important;
+}
+
+/* Back-end */
+
+.backend-top p {
+	margin: 0;
+}
+
+.backend_body {
+	background-color: #E2E2E2;
+}
+
+.backend-top {
+    padding: 0;
+    margin-top: 2em;
+    width: 55%;
+}
+
+.container_backend_text {
+	background-color: white;
+}
+
+.backend-top p {
+	font-size: 13px;
+}
+
+.row.back_modif.m-auto .col-lg-1:hover {
+	border-color: black;
+	padding: 14px !important;
+}
+
+.row.back_modif.m-auto .myanmar:hover p, .publish:hover p {
+	transform: scale(1.1);
+}
+
+.row.back_modif.m-auto div {
+	cursor: pointer;
+}
+
+.container_backend_text {
+	height: 27vw;
+}
+
+.container_backend_text p {
+	padding: 1rem;
+	font-size: 16px;
+}
+
+.back_modif div.publish {
+	background: #0085ba;
+	    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    border-radius: 6px;
+}
+
+.user_log {
+	width: 32px;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
